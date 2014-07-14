@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    <title>岡山大学ベンチャー研究会</title>
+    <title>岡山大学珈琲同好会</title>
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
   </head>
   <body>
+
+    <!-- for Facebook Box -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+              js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=245964522198153&version=v2.0";
+                fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));</script>
+
     <header class="wrapper">
       <div class="inner">
-        <p><img src="./img/logo.png" width="80px"></p>
-        <p><img src="./img/top.png" width="400px"></p>
+        <p><img src="./img/logo.gif" width="80px"></p>
+        <p><img src="./img/top.png" width="600px"></p>
       </div>
     </header>
     <div id="main-image" class="wrapper">
       <div class="inner">
-        <img src="./img/image.jpg">
+        <img src="./img/image2.jpg" width="960">
       </div>
     </div>
     <div id="menu" class="wrapper">
@@ -24,7 +35,7 @@
           <ul class="cf">
             <li><img src="./img/menu/ouvl.gif"></li>
             <li><img src="./img/menu/news.gif"></li>
-            <li><img src="./img/menu/media.gif"></li>
+            <li><a href="http://localhost:3000"><img src="./img/menu/media.gif"></a></li>
             <li><img src="./img/menu/record.gif"></li>
             <li><img src="./img/menu/contact.gif"></li>
           </ul>
@@ -38,34 +49,40 @@
             <h2>更新情報</h2>
           </div>
           <ul>
-            <li>2014.04.01 新しい情報でーす！</li>
-            <li>2014.04.01 新しい情報でーす！</li>
-            <li>2014.04.01 新しい情報でーす！</li>
-            <li>2014.04.01 新しい情報でーす！</li>
-            <li>2014.04.01 新しい情報でーす！</li>
-            <li>2014.04.01 新しい情報でーす！</li>
+            <li>2014.04.01 新しい情報！</li>
+            <li>2014.04.01 新しい情報！</li>
+            <li>2014.04.01 新しい情報！</li>
+            <li>2014.04.01 新しい情報！</li>
+            <li>2014.04.01 新しい情報！</li>
+            <li>2014.04.01 新しい情報！</li>
           </ul>
-        </div>
-        <div id="facebook">
-          <div class="underLine">
-            <h2>Facebook</h2>
-          </div>
-          <p class="tmpbox">Facebook</p>
-        </div>
-        <div id="banner">
-          <span>banner</span>
         </div>
         <div id="twitter">
           <div class="underLine">
             <h2>Twitter</h2>
           </div>
-          <p class="tmpbox">Twitter</p>
+        <a class="twitter-timeline" href="https://twitter.com/CoffeeOkadai" data-widget-id="488025732384178176">Tweets by @CoffeeOkadai</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </div>
+
+      <!--
+        <div id="banner">
+          <span>banner</span>
         </div>
+
+        <div id="facebook">
+          <div class="underLine">
+            <h2>Facebook</h2>
+          </div>
+          <div class="fb-like-box" data-href="https://www.facebook.com/coffeeokadai" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+        </div> 
+        -->
+
       </div>
     </div>
     <footer class="wrapper">
       <div class="inner">
-        <p>COPYRIGHT</p>
+        <p>COPYRIGHT@totz</p>
       </div>
     </footer>
   </body>
